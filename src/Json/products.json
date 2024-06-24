@@ -1,0 +1,215 @@
+{
+  "drinks": {
+    "hots": [
+      {
+        "id": 1,
+        "name": "Espresso",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 2,
+        "name": "Americano",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 3,
+        "name": "Cappuccino",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 4,
+        "name": "Mocha",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 5,
+        "name": "Caramel Mocha",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 6,
+        "name": "W. Chocolote Mocha",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 7,
+        "name": "Flat White",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 8,
+        "name": "Cortado",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 9,
+        "name": "Affogato",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 10,
+        "name": "Türk Kahvesi",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 11,
+        "name": "Filtre Kahve",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 12,
+        "name": "V60 Filtre Kahve",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 13,
+        "name": "Chemex",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 14,
+        "name": "Colombia",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 15,
+        "name": "Latte",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 16,
+        "name": "Toffeenut Latte",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 17,
+        "name": "Coconat Latte",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 18,
+        "name": "Nutella Latte",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 19,
+        "name": "Lotus Latte",
+        "img": "/assets/latte.png"
+      }
+    ],
+    "colds": [
+      {
+        "id": 20,
+        "name": "Cool Lime",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 21,
+        "name": "Berry Hibiscus",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 22,
+        "name": "Love Me",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 23,
+        "name": "Mango Fresh",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 24,
+        "name": "Hollyfit",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 25,
+        "name": "Limonata",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 26,
+        "name": "Çilekli Limonata",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 27,
+        "name": "Vanilla Shake",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 28,
+        "name": "Çikolata Shake",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 29,
+        "name": "Çilek Shake",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 30,
+        "name": "Rite Tonic",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 31,
+        "name": "Pink Label",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 32,
+        "name": "Ice Latte",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 33,
+        "name": "Ice Americano",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 34,
+        "name": "Ice Filter Coffee",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 35,
+        "name": "Ice Mocha",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 36,
+        "name": "Ice Caramel Mocha",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 37,
+        "name": "Ice White Mocha",
+        "img": "/assets/latte.png"
+      },
+      {
+        "id": 38,
+        "name": "Cold Brew",
+        "img": "/assets/latte.png"
+      }
+    ]
+  },
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Baklava",
+      "img": "/assets/latte.png"
+    },
+    {
+      "id": 2,
+      "name": "Revani",
+      "img": "/assets/latte.png"
+    },
+    {
+      "id": 3,
+      "name": "Kazandibi",
+      "img": "/assets/latte.png"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+.menu{
+    margin-top: 3rem;
+    
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: red;
+    padding: 1rem;
+    gap: 3rem;
+    
+}
+.menu-list-item button{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    transition: .3s;
+    padding: 1rem;
+    border: 0;
+}
+.menu-list-item button:hover{
+    background-color: white;
+    color: red;
+}
+.product-img-content{
+transition: 1s;
+cursor: pointer;
+}
+.product-img-content:hover{
+   transform: scale(1.1);
+}
+.product-img{
+    border-radius: 4rem;
+}
+
+  
+
+
+@media only screen and (max-width:768px){
+    .menu-list{gap: 0;}
+    .menu-list-item button{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,133 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 80px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 9999999999;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(90, 90, 90);
+  transition: 0.5s ease-in-out;
+}
+#navbar li a:hover,
+#navbar li a.active {
+  color: rgb(0, 0, 0);
+}
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  bottom: -4px;
+  left: 15%;
+}
+#navbar li a:hover::before,
+#navbar li a.active::before {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  top: -4px;
+  left: 15%;
+}
+.instagram-icon {
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+#mobile {
+  display: none;
+}
+#mobile i {
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 55px;
+    right: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/responsive.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    padding: 0;
+    margin-top: 15px;
+    padding-bottom: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100vh);
+    transition: visibility 1s, opacity 1s, transform 1s;
+    flex-direction: column;
+    z-index: 9999;
+  }
+
+  #navbar.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 9999;
+  }
+
+  .logo {
+    height: 70px;
+  }
+
+  #mobile {
+    display: block;
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  #navbar li a {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+  }
+
+  #navbar li {
+    margin-bottom: 2.5rem;
+  }
+
+  #navbar li a:hover,
+  #navbar li a.active {
+    color: rgb(255, 255, 255);
+  }
+  .instagram-icon{
+    font-size: 3rem;
+  }
+}

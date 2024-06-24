@@ -1,0 +1,19 @@
+
+
+.first-content-text{
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+.second-content-text{
+    margin-top: 1rem;
+    font-size:  1.1rem;
+    letter-spacing: 1px;
+}
+
+
+.first-content{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
